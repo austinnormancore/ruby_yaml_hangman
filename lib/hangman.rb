@@ -95,7 +95,6 @@ class Board
 
 	def save_game
 	    save = YAML.dump({
-	    	:word_array => @@word_array,
 			:word => @word,
 			:blank_array => @blank_array,
 			:guess_array => @guess_array
